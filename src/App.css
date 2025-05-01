@@ -1,0 +1,94 @@
+/* Estilos generales */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Sección de inicio */
+#home {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  padding-top: 80px;
+}
+
+/* Animaciones */
+.fade-in {
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Estilos de tarjetas */
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Estilos de botones */
+.btn-primary {
+  background-color: #4a6baf;
+  border-color: #4a6baf;
+}
+
+.btn-primary:hover {
+  background-color: #3a5a9f;
+  border-color: #3a5a9f;
+}
+
+/* Estilos de la barra de navegación */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+/* Estilos de secciones */
+section {
+  padding: 80px 0;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  section {
+    padding: 40px 0;
+  }
+  
+  .display-4 {
+    font-size: 2.5rem;
+  }
+}
+
+/* Estilos de iconos */
+.social-icons a {
+  transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+}
+
+/* Estilos de formulario */
+.form-control:focus {
+  border-color: #4a6baf;
+  box-shadow: 0 0 0 0.2rem rgba(74, 107, 175, 0.25);
+}
+
+/* Estilos de badges */
+.badge {
+  font-weight: normal;
+  padding: 0.5em 0.8em;
+} 
