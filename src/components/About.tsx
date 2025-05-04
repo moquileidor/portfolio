@@ -15,7 +15,7 @@ const About: React.FC = () => {
                 ¡Hola! Soy Jorge Luis Alvarado Cuesta, un estudiante de Ingeniería de Software apasionado por el desarrollo web y la creación de soluciones tecnológicas innovadoras.
               </p>
               <p className="mb-4">
-                Actualmente estoy cursando mis estudios en la Universidad Nacional de Trujillo, donde he adquirido conocimientos sólidos en programación, bases de datos y desarrollo de software. Me especializo en el desarrollo frontend con React y en la creación de aplicaciones web modernas y responsivas.
+                Actualmente estoy cursando mis estudios en el Tecnologico de Antioquia, donde he adquirido conocimientos sólidos en programación, bases de datos y desarrollo de software.
               </p>
               <p className="mb-4">
                 Mi objetivo es seguir creciendo profesionalmente, aprendiendo nuevas tecnologías y contribuyendo a proyectos que generen un impacto positivo en la sociedad.
